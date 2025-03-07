@@ -1,0 +1,42 @@
+name: app_project
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  geolocator: ^9.0.1
+  google_maps_flutter: ^2.1.1  # เพิ่มการใช้งาน google_maps_flutter
+  shared_preferences: ^2.0.11  # ใช้เวอร์ชันล่าสุด
+  image_picker: ^0.8.5+3  # ใช้เวอร์ชันล่าสุด
+  path_provider: ^2.1.0
+  curved_navigation_bar: ^1.0.0
+  http: ^0.13.3
+  provider: ^6.0.0
+  intl: ^0.17.0
+  network_info_plus: ^5.0.0  # Use the latest version
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.9.2"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/logo.png
+    - lib/images/bg.png
